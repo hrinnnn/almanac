@@ -97,6 +97,20 @@
   $("#epi-next").onclick = nextEpigraph;
   nextEpigraph();
 
+  /* ---------- preface ---------- */
+
+  const pnotes = D.notes || {};
+  if (pnotes.preface) {
+    const fill = (s) => s
+      .replace("{marks}", cnNum(col.length))
+      .replace("{comments}", cnNum(col.filter((i) => i.comment).length))
+      .replace("{date}", `${cnYear(fy)}年${cnNum(fm)}月`);
+    $("#preface").innerHTML = `
+      <div class="pf-head"><span>${esc(pnotes.preface_title)}</span></div>
+      ${pnotes.preface.map((p) => `<p>${esc(fill(p))}</p>`).join("")}
+      <div class="pf-sign"><b>—— ${esc(fill(pnotes.preface_sign[0]))}</b><span>${esc(fill(pnotes.preface_sign[1]))}</span></div>`;
+  }
+
   /* ---------- table of contents ---------- */
 
   $("#toc").innerHTML = `<div class="toc-head">目 录</div><ol>${[...document.querySelectorAll("section[data-toc]")].map((s) => {
@@ -398,7 +412,7 @@
     $("#essay").innerHTML = `<h3>${esc(notes.portrait_title)}</h3>
       <div class="byline">An editor's note, ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][fm - 1]} ${fy}</div>
       <div class="body">${notes.portrait.map((p, k) => `<p>${k ? "" : `<span class="an">按</span>`}${esc(p)}</p>`).join("")}</div>
-      <div class="sign">编者 识于${cnYear(fy)}年${cnNum(fm)}月</div>`;
+      <div class="sign">Claude Opus 5.5 识于${cnYear(fy)}年${cnNum(fm)}月</div>`;
   }
 
   /* ---------- card catalog ---------- */

@@ -682,6 +682,40 @@ a:hover { color: var(--red); text-decoration-color: var(--red); }
 .colophon .grid { display: grid; grid-template-columns: auto 1fr; gap: 0 18px; text-align: left; width: fit-content; margin: 0 auto; }
 .colophon .grid span:nth-child(odd) { font-family: var(--song); letter-spacing: .3em; color: var(--ink-faint); }
 
+/* ---------- preface ---------- */
+
+.preface {
+  max-width: 600px;
+  margin: 8px auto 44px;
+  font-family: var(--song);
+  font-size: 15px;
+  line-height: 2.05;
+  color: var(--ink-soft);
+  text-align: justify;
+}
+.preface .pf-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+  font-size: 13px;
+  letter-spacing: .6em;
+  color: var(--ink-faint);
+}
+.preface .pf-head::before, .preface .pf-head::after { content: ""; flex: 1; border-top: 1px solid rgba(43, 39, 33, .3); }
+.preface p { margin: 0 0 .9em; text-indent: 2em; }
+.preface p:last-of-type { text-indent: 2em; color: var(--ink); }
+.preface .pf-sign {
+  margin-top: 20px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.preface .pf-sign b { font-family: var(--serif); font-style: italic; font-weight: normal; font-size: 17px; color: var(--ink); letter-spacing: .02em; }
+.preface .pf-sign span { font-family: var(--kai); font-size: 14px; color: var(--ink-faint); }
+
 /* ---------- table of contents ---------- */
 
 .toc {
