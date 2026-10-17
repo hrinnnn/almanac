@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>书影音簿 · Monotonism</title>
+<meta name="description" content="Monotonism 在豆瓣记下的影视、书与唱片：年表、长评、卡片柜。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="rough">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="t"/>
+    <feDisplacementMap in="SourceGraphic" in2="t" scale="3.2"/>
+  </filter>
+</svg>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <div class="folio">
+      <span id="vol">第一卷</span>
+      <span>非 卖 品</span>
+      <span id="issue-date"></span>
+    </div>
+    <div class="double-rule"></div>
+    <div class="title-block">
+      <div>
+        <h1>书影音簿</h1>
+        <div class="latin">An Almanac of Films, Books &amp; Records, kept by Monotonism</div>
+      </div>
+      <div class="seal" aria-label="单调主义"><span>主义</span><span>单调</span></div>
+    </div>
+    <div class="thin-rule"></div>
+    <div class="dek" id="dek"></div>
+    <div class="double-rule"></div>
+  </header>
+
+  <section class="epigraph">
+    <div class="label">卷 首 语</div>
+    <blockquote id="epi-text"></blockquote>
+    <div class="source" id="epi-src"></div>
+    <button class="text-btn" id="epi-next">另 换 一 句</button>
+  </section>
+
+  <nav class="toc" id="toc"></nav>
+
+  <section class="sec" id="s-ledger" data-toc="总目|三类作品的总账">
+    <h2 class="sec-title"><span class="num">壹</span>总目</h2>
+    <div>
+      <div class="ledger" id="ledger"></div>
+      <div class="footnotes" id="ledger-notes"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-recent" data-toc="近况|最近记下的作品，与案头未竟之事">
+    <h2 class="sec-title"><span class="num">贰</span>近况</h2>
+    <div>
+      <p class="lede" id="recent-lede"></p>
+      <div class="window" id="recent"></div>
+      <div class="doing" id="doing"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-chron" data-toc="年表|每一次标记都是一道刻痕；点击年份看年度之选">
+    <h2 class="sec-title"><span class="num">叁</span>年表</h2>
+    <div>
+      <p class="lede">每一道竖线是一次“看过 / 读过 / 听过”。同一天记得越多，刻痕叠得越高，像一台记录日常震动的地震仪。悬停可看当天记下了什么；点击年份，下方展开这一年的年度之选。</p>
+      <div class="chron" id="chron"></div>
+      <div class="chron-legend">
+        <span><i style="background:var(--movie)"></i>影</span>
+        <span><i style="background:var(--book)"></i>书</span>
+        <span><i style="background:var(--music)"></i>音</span>
+        <span><i style="background:var(--red);height:4px;width:4px;border-radius:50%;vertical-align:4px"></i>超过二十条的日子</span>
+      </div>
+      <div class="year-panel" id="year-panel"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-travel" data-toc="时间旅行|标记的日子与作品诞生年份之间的距离">
+    <h2 class="sec-title"><span class="num">肆</span>时间旅行</h2>
+    <div>
+      <p class="lede" id="travel-lede"></p>
+      <div class="travel" id="travel"></div>
+      <div class="caption" id="travel-cap"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-reviews" data-toc="长评选登|从短评里选出的几篇长文">
+    <h2 class="sec-title"><span class="num">伍</span>长评选登</h2>
+    <div>
+      <p class="lede">豆瓣的短评限三百五十字，下面几篇差不多都写满了。按原文照录，未作删改。</p>
+      <div class="reviews" id="reviews"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-quotes" data-toc="只言片语|一句话的短评">
+    <h2 class="sec-title"><span class="num">陆</span>只言片语</h2>
+    <div>
+      <div class="quotes" id="quotes"></div>
+      <div style="text-align:center"><button class="text-btn" id="quotes-next">再 翻 一 页</button></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-index" data-toc="人名索引|导演、作者、音乐人">
+    <h2 class="sec-title"><span class="num">柒</span>人名索引</h2>
+    <div>
+      <p class="lede">按出现次数排列。名字后面的红点是给过的五星数目。</p>
+      <div class="index-cols" id="index"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-shelf" data-toc="年代与脾气|作品的年代分布与打分习惯">
+    <h2 class="sec-title"><span class="num">捌</span>年代与脾气</h2>
+    <div class="shelf-wrap">
+      <div class="shelf">
+        <div id="shelf"></div>
+        <div class="caption" id="shelf-cap"></div>
+      </div>
+      <div class="temper" id="temper"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-essay" data-toc="编者按|关于一位单调主义者">
+    <h2 class="sec-title"><span class="num">玖</span>编者按</h2>
+    <div>
+      <div class="essay" id="essay"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-cards" data-toc="卡片柜|全部条目，可筛选、可检索">
+    <h2 class="sec-title"><span class="num">拾</span>卡片柜</h2>
+    <div>
+      <div class="controls">
+        <div class="tabs" id="cat-tabs">
+          <button data-cat="all" class="on">全部</button>
+          <button data-cat="movie">影</button>
+          <button data-cat="book">书</button>
+          <button data-cat="music">音</button>
+        </div>
+        <select id="f-year"><option value="">所有年份</option></select>
+        <select id="f-rating">
+          <option value="">所有星级</option>
+          <option value="5">★★★★★</option>
+          <option value="4">★★★★</option>
+          <option value="3">★★★</option>
+          <option value="low">★★ 及以下</option>
+          <option value="none">未评分</option>
+        </select>
+        <label><input type="checkbox" id="f-comment"> 只看有短评的</label>
+        <input type="search" id="f-q" placeholder="书名、导演、短评里的字……">
+        <span class="count" id="f-count"></span>
+      </div>
+      <div class="cards" id="cards"></div>
+      <div class="more-wrap"><button class="drawer-btn" id="more">再抽一屉</button></div>
+    </div>
+  </section>
+
+  <section class="sec" id="s-lots" data-toc="签筒|从五星里替你抽一部">
+    <h2 class="sec-title"><span class="num">拾壹</span>签筒</h2>
+    <div class="desk">
+      <div>
+        <h3>请君抽一签 <small id="lot-count"></small></h3>
+        <div class="lots">
+          <div class="tube-ctrl">
+            <div class="tabs" id="lot-tabs">
+              <button data-cat="all" class="on">全部</button>
+              <button data-cat="movie">影</button>
+              <button data-cat="book">书</button>
+              <button data-cat="music">音</button>
+            </div>
+            <button class="drawer-btn shake" id="shake">摇一签</button>
+            <div class="tube-note">从 Monotonism 打过五星的作品里随机抽一部。不知道今晚看什么的时候，可以来摇一摇。</div>
+          </div>
+          <div class="lot blank" id="lot">签 在 筒 中</div>
+        </div>
+      </div>
+      <div>
+        <h3>往年今日 <small id="otd-date"></small></h3>
+        <ul class="plain" id="otd"></ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="colophon" id="colophon"></footer>
+
+</div>
+
+<div class="slip" id="slip"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
