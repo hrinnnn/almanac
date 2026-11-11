@@ -120,12 +120,16 @@ def main():
     collected = {(i["category"], i["id"]) for i in merged if i["status"] == "collect"}
     merged = [i for i in merged if i["status"] == "collect" or (i["category"], i["id"]) not in collected]
 
-    DATA.parent.mkdir(parents=True, exist_ok=True)
-    DATA.write_text(json.dumps({
-        "user_id": USER_ID,
-        "fetched_at": time.strftime("%Y-%m-%d %H:%M"),
-        "items": merged,
-    }, ensure_ascii=False, indent=1))
+    previous = json.loads(DATA.read_text())["items"] if DATA.exists() else None
+    if merged == previous:
+        print("no changes")
+    else:
+        DATA.parent.mkdir(parents=True, exist_ok=True)
+        DATA.write_text(json.dumps({
+            "user_id": USER_ID,
+            "fetched_at": time.strftime("%Y-%m-%d %H:%M"),
+            "items": merged,
+        }, ensure_ascii=False, indent=1))
     counts = {}
     for i in merged:
         counts[(i["category"], i["status"])] = counts.get((i["category"], i["status"]), 0) + 1
