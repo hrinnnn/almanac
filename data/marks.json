@@ -1,7 +1,18 @@
 {
  "user_id": "242876980",
- "fetched_at": "2026-10-17 19:10",
+ "fetched_at": "2026-11-12 02:19",
  "items": [
+  {
+   "id": "34952486",
+   "category": "movie",
+   "status": "collect",
+   "title": "鸟类变形记 / A Metamorfose dos Pássaros",
+   "url": "https://movie.douban.com/subject/34952486/",
+   "rating": 4,
+   "date": "2026-11-03",
+   "intro": "2020-02-28(柏林电影节) / 2020-05-28(葡萄牙) / 卡塔里娜·瓦斯康塞洛斯 / Pedro Fernandes Duarte / 葡萄牙 / 卡塔里娜·瓦斯康塞洛斯 / 101分钟 / 鸟类变形记 / 剧情 / 传记 / 纪录片 / 卡塔里娜·瓦斯康塞洛斯 Catarina Vasconcelos / 葡萄牙语",
+   "comment": "我真的老了……如果高中时候看这种电影一定会打五星的"
+  },
   {
    "id": "1293852",
    "category": "movie",
@@ -11,7 +22,7 @@
    "rating": 5,
    "date": "2026-10-17",
    "intro": "1968-06-12 / 米娅·法罗 / 约翰·卡萨韦蒂斯 / 鲁思·戈登 / 西德尼·布莱克默 / 莫里斯·埃文斯 / 拉尔夫·贝拉米 / 维多利亚·沃特瑞 / 帕茜·凯莉 / 小伊莱莎·库克 / 埃马利娜·亨利 / 美国 / 罗曼·波兰斯基 / 136分钟 / 罗斯玛丽的婴儿 / 剧情 / 恐怖 / 艾拉·莱文 Ira Levin / 罗曼·波兰斯基 Roman Polanski / 英语",
-   "comment": "后半段颇有希区柯克味道，前半段有点慢。米娅法罗演的太好。上帝已死。"
+   "comment": "后半段颇有希区柯克味道，前半段有点慢。米娅法罗演的太好。上帝已死。\n                    \n                        (1 有用)"
   },
   {
    "id": "1293391",
@@ -142,7 +153,7 @@
    "url": "https://movie.douban.com/subject/1420238/",
    "rating": 5,
    "date": "2026-06-21",
-   "intro": "1996-08-13(洛迦诺电影节) / 1997-04-09(法国) / 米尔哈迪·塔耶比 / 莫森·马克马尔巴夫 / Ali Bakhsi / 阿马尔·塔夫蒂·德赫甘 / 马尔亚姆·穆罕默德米尼 / Mahram Zeinal Zadeh / 汉娜·玛克玛尔巴夫 / 伊朗 / 法国 / 莫森·马克马尔巴夫 / 78分钟 / 纯真时刻 / 剧情 / 喜剧 / 莫森·玛克玛尔巴夫 Mohsen Makhmalbaf / 波斯语",
+   "intro": "1996-08-13(洛迦诺电影节) / 1997-04-09(法国) / 米尔哈迪·塔耶比 / 莫森·玛克玛尔巴夫 / Ali Bakhsi / 阿马尔·塔夫蒂·德赫甘 / 马尔亚姆·穆罕默德米尼 / Mahram Zeinal Zadeh / 汉娜·玛克玛尔巴夫 / 伊朗 / 法国 / 莫森·玛克玛尔巴夫 / 78分钟 / 纯真时刻 / 剧情 / 喜剧 / 莫森·玛克玛尔巴夫 Mohsen Makhmalbaf / 波斯语",
    "comment": "太牛逼了。戏中戏的最高境界"
   },
   {
@@ -461,7 +472,7 @@
    "url": "https://movie.douban.com/subject/1294194/",
    "rating": 5,
    "date": "2025-08-29",
-   "intro": "1989-09-12(威尼斯电影节) / 1989-10-21(中国台湾) / 1989-12-21(中国香港) / 梁朝伟 / 辛树芬 / 陈松勇 / 李天禄 / 高捷 / 陈淑芳 / 太保 / 梅芳 / 林照雄 / 金士杰 / 中国台湾 / 侯孝贤 / 157分钟 / 剧情 / 历史 / 吴念真 / 朱天文 Tien-wen Chu / 闽南语 / 汉语普通话 / 日语 / 上海话 / 粤语",
+   "intro": "1989-09-12(威尼斯电影节) / 1989-10-21(中国台湾) / 1989-12-21(中国香港) / 梁朝伟 / 辛树芬 / 陈松勇 / 李天禄 / 高捷 / 陈淑芳 / 太保 / 梅芳 / 林照雄 / 金士杰 / 中国台湾 / 侯孝贤 / 157分钟 / 剧情 / 历史 / 吴念真 Nien-Jen Wu / 朱天文 Tien-wen Chu / 闽南语 / 汉语普通话 / 日语 / 上海话 / 粤语",
    "comment": "看哭了\n                    \n                        (1 有用)"
   },
   {
@@ -4282,6 +4293,39 @@
    "comment": ""
   },
   {
+   "id": "1873374",
+   "category": "movie",
+   "status": "wish",
+   "title": "荒唐人的梦 / Сон смешного человека",
+   "url": "https://movie.douban.com/subject/1873374/",
+   "rating": null,
+   "date": "2026-11-11",
+   "intro": "1992-10 / 亚历山大·凯伊达诺夫斯基 / 俄罗斯 / 亚历山大·彼德洛夫 / 20分钟 / 荒唐人的梦 / 动画 / 短片 / 奇幻 / 陀思妥耶夫斯基 Fyodor Dostoyevsky / 亚历山大·彼德洛夫 Aleksandr Petrov / 俄语",
+   "comment": ""
+  },
+  {
+   "id": "1292850",
+   "category": "movie",
+   "status": "wish",
+   "title": "危情十日 / Misery",
+   "url": "https://movie.douban.com/subject/1292850/",
+   "rating": null,
+   "date": "2026-11-06",
+   "intro": "1990-11-30 / 詹姆斯·肯恩 / 凯西·贝茨 / 理查德·法恩斯沃斯 / 弗朗西斯·斯特恩哈根  / 劳伦·白考尔 / 格雷厄姆·贾维斯 / 杰瑞·波特 / 托马斯·布鲁内尔 / 朱莉·佩恩 / 格莱格·斯奈哥夫 / 美国 / 罗伯·莱纳 / 107 分钟 / 危情十日 / 剧情 / 犯罪 / 惊悚 / 斯蒂芬·金 Stephen King / 威廉·戈德曼 William Goldman / 英语",
+   "comment": ""
+  },
+  {
+   "id": "26235647",
+   "category": "movie",
+   "status": "wish",
+   "title": "他们在岛屿写作：如歌的行板 / 他們在島嶼寫作：如歌的行板",
+   "url": "https://movie.douban.com/subject/26235647/",
+   "rating": null,
+   "date": "2026-10-25",
+   "intro": "2014-10-18(中国台湾) / 痖弦 / 阮义忠 / 蒋勋 / 杨照 / 林怀民 / 聂华苓 / 叶嘉莹 / 中国台湾 / www.poemmovie.com.tw/island2/movie3.php / 陈怀恩 / 143分钟 / 他们在岛屿写作：如歌的行板 / 纪录片 / 徐浩轩 Hao-hsuan Hsu / 汉语普通话",
+   "comment": ""
+  },
+  {
    "id": "36778356",
    "category": "movie",
    "status": "wish",
@@ -4674,18 +4718,7 @@
    "url": "https://movie.douban.com/subject/1292330/",
    "rating": null,
    "date": "2024-10-24",
-   "intro": "1986(中国台湾) / 1987-09-13(多伦多电影节) / 1987-10-15(中国香港) / 李天禄 / 辛树芬 / 王晶文 / 柯宇纶 / 陈淑芳 / 杨丽音 / 林秀玲 / 梅芳 / 王冲 / 胡翔评 / 中国台湾 / 侯孝贤 / 109分钟 / 恋恋风尘 / 剧情 / 爱情 / 吴念真 / 朱天文 Tien-wen Chu / 汉语普通话 / 粤语 / 闽南语",
-   "comment": ""
-  },
-  {
-   "id": "34952486",
-   "category": "movie",
-   "status": "wish",
-   "title": "鸟类变形记 / A Metamorfose dos Pássaros",
-   "url": "https://movie.douban.com/subject/34952486/",
-   "rating": null,
-   "date": "2024-10-17",
-   "intro": "2020-02-28(柏林电影节) / 2020-05-28(葡萄牙) / 卡塔里娜·瓦斯康塞洛斯 / Pedro Fernandes Duarte / 葡萄牙 / 卡塔里娜·瓦斯康塞洛斯 / 101分钟 / 鸟类变形记 / 剧情 / 传记 / 纪录片 / 卡塔里娜·瓦斯康塞洛斯 Catarina Vasconcelos / 葡萄牙语",
+   "intro": "1986(中国台湾) / 1987-09-13(多伦多电影节) / 1987-10-15(中国香港) / 李天禄 / 辛树芬 / 王晶文 / 柯宇纶 / 陈淑芳 / 杨丽音 / 林秀玲 / 梅芳 / 王冲 / 胡翔评 / 中国台湾 / 侯孝贤 / 109分钟 / 恋恋风尘 / 剧情 / 爱情 / 吴念真 Nien-Jen Wu / 朱天文 Tien-wen Chu / 汉语普通话 / 粤语 / 闽南语",
    "comment": ""
   },
   {
@@ -5855,6 +5888,83 @@
    "comment": "太帅了"
   },
   {
+   "id": "26986876",
+   "category": "book",
+   "status": "collect",
+   "title": "白鲸",
+   "url": "https://book.douban.com/subject/26986876/",
+   "rating": 5,
+   "date": "2026-11-09",
+   "intro": "赫尔曼·梅尔维尔 / 成时 / 人民文学出版社 / 2018-3-1 / CNY 49.00",
+   "comment": "汹涌的语言狂欢，磅礴如大海。穿游于文献经典同时将其解构。大量航海知识于文献考究的自由生发，包罗万象。比普的预言。个性鲜明的副手。类舞台剧的章节。大量隐喻明暗交织。异教徒与食人生番。读跪了。"
+  },
+  {
+   "id": "36697169",
+   "category": "book",
+   "status": "collect",
+   "title": "舞在敖德萨",
+   "url": "https://book.douban.com/subject/36697169/",
+   "rating": 3,
+   "date": "2026-11-04",
+   "intro": "[美] 伊利亚·卡明斯基 / 明迪 / 浙江文艺出版社 / 2024-7 / 52.00元",
+   "comment": "比较喜欢第一部分《舞在敖德萨》，其他诗没太get到。评论散文还可以"
+  },
+  {
+   "id": "26897318",
+   "category": "book",
+   "status": "collect",
+   "title": "百万英镑",
+   "url": "https://book.douban.com/subject/26897318/",
+   "rating": 4,
+   "date": "2026-10-31",
+   "intro": "[美]马克·吐温 / 宋兆霖 / 译林出版社 / 2016-10 / 28",
+   "comment": "高中读的"
+  },
+  {
+   "id": "25760467",
+   "category": "book",
+   "status": "collect",
+   "title": "莫洛伊",
+   "url": "https://book.douban.com/subject/25760467/",
+   "rating": 5,
+   "date": "2026-10-21",
+   "intro": "[爱尔兰] 萨缪尔·贝克特 / 阮蓓 / 湖南文艺出版社 / 2013-12 / 26.00元",
+   "comment": "看完了《学生托乐思的迷惘》和《莫洛伊》。看跪了，在读完《莫洛伊》的第二章，也是最后一章，合起这本精巧的小书的下午，我打算给这两位爷跪了，也就是说，给罗伯特·穆齐尔和萨缪尔·贝克特跪了。想起了哈罗德·布鲁姆在《西方正典》所写的：不是理论为经典做注脚，而是经典为理论做注脚。经典真包含理论，而理论只是其中苍白到可怜的一个部分"
+  },
+  {
+   "id": "36837550",
+   "category": "book",
+   "status": "collect",
+   "title": "但人间曾有盟约",
+   "url": "https://book.douban.com/subject/36837550/",
+   "rating": 5,
+   "date": "2026-10-20",
+   "intro": "海子 / 中国文联出版社 / 2024-3 / 58.00元",
+   "comment": ""
+  },
+  {
+   "id": "35089547",
+   "category": "book",
+   "status": "collect",
+   "title": "土星之环",
+   "url": "https://book.douban.com/subject/35089547/",
+   "rating": 4,
+   "date": "2026-10-20",
+   "intro": "[德国] 温弗里德·塞巴尔德 / 闵志荣 / 广西师范大学出版社 / 2020-8 / 64.00元",
+   "comment": "读完就忘，消磨时间首选。4.5星"
+  },
+  {
+   "id": "36783317",
+   "category": "book",
+   "status": "collect",
+   "title": "永存我的话语",
+   "url": "https://book.douban.com/subject/36783317/",
+   "rating": 5,
+   "date": "2026-10-20",
+   "intro": "[俄] 奥西普·曼德尔施塔姆 / 王家新 / 北京联合出版公司 / 2024-3 / 68.00元",
+   "comment": "居然没标。最爱的俄语诗人"
+  },
+  {
    "id": "36223089",
    "category": "book",
    "status": "collect",
@@ -6138,7 +6248,7 @@
    "rating": 4,
    "date": "2026-02-21",
    "intro": "曹洁然 / 上海文艺出版社 / 2025-9 / 59.00",
-   "comment": "人怎么能学的这么杂\n                    \n                        (2 有用)"
+   "comment": "人怎么能学的这么杂\n                    \n                        (3 有用)"
   },
   {
    "id": "25845647",
@@ -9199,6 +9309,83 @@
    "comment": ""
   },
   {
+   "id": "27603904",
+   "category": "book",
+   "status": "wish",
+   "title": "拉德茨基进行曲",
+   "url": "https://book.douban.com/subject/27603904/",
+   "rating": null,
+   "date": "2026-11-09",
+   "intro": "[奥地利] 约瑟夫·罗特 / 曹英华 / 天地出版社 / 2018-2-1 / 49.80元",
+   "comment": ""
+  },
+  {
+   "id": "1017818",
+   "category": "book",
+   "status": "wish",
+   "title": "观看之道",
+   "url": "https://book.douban.com/subject/1017818/",
+   "rating": null,
+   "date": "2026-10-22",
+   "intro": "[英] 约翰·伯格 / 戴行钺 / 广西师范大学出版社 / 2007-9 / 18.00元",
+   "comment": ""
+  },
+  {
+   "id": "37227877",
+   "category": "book",
+   "status": "wish",
+   "title": "白鲸",
+   "url": "https://book.douban.com/subject/37227877/",
+   "rating": null,
+   "date": "2026-10-21",
+   "intro": "[美] 赫尔曼·梅尔维尔 / 靖振忠 / 译林出版社 / 2025-5 / 88.00元",
+   "comment": ""
+  },
+  {
+   "id": "34840593",
+   "category": "book",
+   "status": "wish",
+   "title": "大转型",
+   "url": "https://book.douban.com/subject/34840593/",
+   "rating": null,
+   "date": "2026-10-21",
+   "intro": "[英] 卡尔·波兰尼 / 冯钢 / 当代世界出版社 / 2020-1 / 79.00元",
+   "comment": ""
+  },
+  {
+   "id": "26747162",
+   "category": "book",
+   "status": "wish",
+   "title": "论普鲁斯特",
+   "url": "https://book.douban.com/subject/26747162/",
+   "rating": null,
+   "date": "2026-10-21",
+   "intro": "［爱尔兰］萨缪尔·贝克特 / 陈俊松 / 湖南文艺出版社 / 2017-2 / 22.00元",
+   "comment": ""
+  },
+  {
+   "id": "27170480",
+   "category": "book",
+   "status": "wish",
+   "title": "名家读新诗",
+   "url": "https://book.douban.com/subject/27170480/",
+   "rating": null,
+   "date": "2026-10-18",
+   "intro": "西渡 / 北京联合出版公司 / 2017-10 / 49元",
+   "comment": ""
+  },
+  {
+   "id": "30304337",
+   "category": "book",
+   "status": "wish",
+   "title": "读诗记",
+   "url": "https://book.douban.com/subject/30304337/",
+   "rating": null,
+   "date": "2026-10-18",
+   "intro": "西渡 / 东方出版中心 / 2018-7 / 48.00",
+   "comment": ""
+  },
+  {
    "id": "26053771",
    "category": "book",
    "status": "wish",
@@ -9207,17 +9394,6 @@
    "rating": null,
    "date": "2026-10-14",
    "intro": "[美] 约瑟夫·布罗茨基 / 黄灿然 / 浙江文艺出版社 / 2014-9-1 / CNY 45.00",
-   "comment": ""
-  },
-  {
-   "id": "35089547",
-   "category": "book",
-   "status": "wish",
-   "title": "土星之环",
-   "url": "https://book.douban.com/subject/35089547/",
-   "rating": null,
-   "date": "2026-10-14",
-   "intro": "[德国] 温弗里德·塞巴尔德 / 闵志荣 / 广西师范大学出版社 / 2020-8 / 64.00元",
    "comment": ""
   },
   {
@@ -9679,7 +9855,7 @@
    "url": "https://book.douban.com/subject/1062343/",
    "rating": null,
    "date": "2026-02-21",
-   "intro": "[奥］斯蒂芬・茨威格 / 舒昌善 / 广西师范大学出版社 / 2004-5 / 32.00元",
+   "intro": "[奥] 斯蒂芬·茨威格 / 舒昌善 / 广西师范大学出版社 / 2004-5 / 32.00元",
    "comment": ""
   },
   {
@@ -9757,17 +9933,6 @@
    "rating": null,
    "date": "2025-12-27",
    "intro": "索德格朗 / 北岛 / 外国文学出版社 / 1987-10 / 0.82 元",
-   "comment": ""
-  },
-  {
-   "id": "36697169",
-   "category": "book",
-   "status": "wish",
-   "title": "舞在敖德萨",
-   "url": "https://book.douban.com/subject/36697169/",
-   "rating": null,
-   "date": "2025-12-21",
-   "intro": "[美] 伊利亚·卡明斯基 / 明迪 / 浙江文艺出版社 / 2024-7 / 52.00元",
    "comment": ""
   },
   {
@@ -13432,17 +13597,6 @@
    "date": "2025-03-31",
    "intro": "王昀燕 / 商务印书馆 / 2014-9 / 75.00",
    "comment": "研究，论文就靠你了"
-  },
-  {
-   "id": "36783317",
-   "category": "book",
-   "status": "do",
-   "title": "永存我的话语",
-   "url": "https://book.douban.com/subject/36783317/",
-   "rating": 5,
-   "date": "2024-12-29",
-   "intro": "[俄] 奥西普·曼德尔施塔姆 / 王家新 / 北京联合出版公司 / 2024-3 / 68.00元",
-   "comment": "暴力的犁滑破乌拉尔下冰封的黑土地，里面流出的是曼德尔施塔姆的诗"
   },
   {
    "id": "35369629",
