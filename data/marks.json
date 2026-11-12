@@ -1,6 +1,6 @@
 {
  "user_id": "242876980",
- "fetched_at": "2026-11-12 02:19",
+ "fetched_at": "2026-11-12 15:21",
  "items": [
   {
    "id": "34952486",
@@ -5888,6 +5888,17 @@
    "comment": "太帅了"
   },
   {
+   "id": "30324580",
+   "category": "book",
+   "status": "collect",
+   "title": "帕斯捷尔纳克的诗",
+   "url": "https://book.douban.com/subject/30324580/",
+   "rating": 4,
+   "date": "2026-11-12",
+   "intro": "[俄]鲍里斯·帕斯捷尔纳克 / 刘文飞 / 商务印书馆 / 2019-1 / 39.00",
+   "comment": "老水赠书。没读过瘾"
+  },
+  {
    "id": "26986876",
    "category": "book",
    "status": "collect",
@@ -9309,6 +9320,17 @@
    "comment": ""
   },
   {
+   "id": "26427575",
+   "category": "book",
+   "status": "wish",
+   "title": "我们在此相遇",
+   "url": "https://book.douban.com/subject/26427575/",
+   "rating": null,
+   "date": "2026-11-12",
+   "intro": "[英]约翰·伯格 / 吴莉君 / 广西师范大学出版社 / 2015-5 / 48.00元",
+   "comment": ""
+  },
+  {
    "id": "27603904",
    "category": "book",
    "status": "wish",
@@ -10318,17 +10340,6 @@
    "rating": null,
    "date": "2025-10-25",
    "intro": "[美] 弗拉基米尔·纳博科夫 / 主万 / 上海译文出版社 / 2005-12 / 27.00元",
-   "comment": ""
-  },
-  {
-   "id": "30324580",
-   "category": "book",
-   "status": "wish",
-   "title": "帕斯捷尔纳克的诗",
-   "url": "https://book.douban.com/subject/30324580/",
-   "rating": null,
-   "date": "2025-10-25",
-   "intro": "[俄]鲍里斯·帕斯捷尔纳克 / 刘文飞 / 商务印书馆 / 2019-1 / 39.00",
    "comment": ""
   },
   {
