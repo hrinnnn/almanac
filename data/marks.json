@@ -1,6 +1,6 @@
 {
  "user_id": "242876980",
- "fetched_at": "2026-11-17 06:15",
+ "fetched_at": "2026-11-18 05:01",
  "items": [
   {
    "id": "34952486",
@@ -5888,6 +5888,17 @@
    "comment": "太帅了"
   },
   {
+   "id": "26905155",
+   "category": "book",
+   "status": "collect",
+   "title": "九故事",
+   "url": "https://book.douban.com/subject/26905155/",
+   "rating": 5,
+   "date": "2026-11-17",
+   "intro": "[美] J. D. 塞林格 / 丁骏 / 译林出版社 / 2018-10 / 49.80元",
+   "comment": "塞林格比起卡佛有更多的元素和细节，更复杂的整体结构。但都如此隽永动人。\n\n\t很迷恋短篇小说。所有读过的小说故事连接起来，构成一个开放的空间，一个能容忍一切堕落、疯狂、出格、平庸的世界。小说并不批判任何失败的人，所有人都在自由的堕落着。我们不都是这样的吗？"
+  },
+  {
    "id": "35026490",
    "category": "book",
    "status": "collect",
@@ -9331,6 +9342,28 @@
    "comment": ""
   },
   {
+   "id": "10605854",
+   "category": "book",
+   "status": "wish",
+   "title": "尼克·亚当斯故事集",
+   "url": "https://book.douban.com/subject/10605854/",
+   "rating": null,
+   "date": "2026-11-17",
+   "intro": "(美)海明威 / 陈良廷 等 / 上海译文出版社 / 2012-5-1 / 50.00元",
+   "comment": ""
+  },
+  {
+   "id": "27181925",
+   "category": "book",
+   "status": "wish",
+   "title": "乌鸦",
+   "url": "https://book.douban.com/subject/27181925/",
+   "rating": null,
+   "date": "2026-11-17",
+   "intro": "[美] 埃德加·爱伦·坡 / 曹明伦 / 江西人民出版社 / 2017-12 / 49.00元",
+   "comment": ""
+  },
+  {
    "id": "26427575",
    "category": "book",
    "status": "wish",
@@ -10549,17 +10582,6 @@
    "rating": null,
    "date": "2025-09-10",
    "intro": "北岛 / 生活·读书·新知三联书店 / 2012-3 / 36.00元",
-   "comment": ""
-  },
-  {
-   "id": "26905155",
-   "category": "book",
-   "status": "wish",
-   "title": "九故事",
-   "url": "https://book.douban.com/subject/26905155/",
-   "rating": null,
-   "date": "2025-09-09",
-   "intro": "[美] J. D. 塞林格 / 丁骏 / 译林出版社 / 2018-10 / 49.80元",
    "comment": ""
   },
   {
